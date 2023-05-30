@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+
+  <style>
+    .sidebar {
+      background-color: #d7b8d3;
+    }
+
+    .sidebar a {
+      color: black;
+      font-size: 18px;
+      display: block;
+    }
+
+    .sidebar a.active {
+      font-weight: bold;
+    }
+
+    .card-body {
+      background-color: rgb(189, 178, 201);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar bg-light">
+    <a class="navbar-brand" href="#">e-commerce</a>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-lg-2 col-md-3 sidebar">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Orders</a>
+        <a href="#">Products</a>
+        <a href="#">Customers</a>
+      </div>
+
+      <!-- Main content -->
+      <div class="col-lg-10 col-md-9 content">
+        <div class="row">
+
+          <!-- Statistics card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card-body">
+              <h5>Total Orders</h5>
+              <h6>May 2023</h6>
+              <p>1,234</p>
+            </div>
+          </div>
+
+          <!-- Statistics card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card-body">
+              <h5>Total Revenue</h5>
+              <h6>May 2023</h6>
+              <p>$12,345</p>
+            </div>
+          </div>
+
+          <!-- Statistics card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card-body">
+              <h5>New Customers</h5>
+              <h6>May 2023</h6>
+              <p>567</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
